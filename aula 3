@@ -1,0 +1,32 @@
+1. Etapa 1: Análise de Tokens
+
+Frase analisada: "A engenharia de prompt otimiza LLMs"
+Resultado do Tokenizer:
+Quantidade de tokens: 8 tokens (estimado para o modelo GPT-4).
+Observação morfológica: Palavras complexas como "engenharia" e siglas como "LLMs" são frequentemente divididas em sub-tokens (ex: LL + Ms), demonstrando que o modelo processa fragmentos estatísticos e não palavras inteiras.
+
+2. Etapa 2: Teste de Previsibilidade
+
+Prompt: "O gato come..."
+3 Palavras mais prováveis (Simulação):
+Ração: Contexto doméstico mais comum para gatos.
+Peixe: Estereótipo cultural forte associado à dieta felina.
+Rato: Instinto natural de caça frequentemente retratado em textos.
+Variação de Temperatura
+Muito Técnica (Baixa Temperatura): "O gato consome nutrientes específicos através de ração balanceada para manter sua saúde fisiológica."
+Muito Criativa (Alta Temperatura): "O gato come as estrelas da meia-noite enquanto dança sobre os telhados de cristal de uma Paris esquecida."
+
+3. Etapa 3: Raciocínio Chain-of-Thought (CoT)
+
+Desafio: "Qual é a terceira letra da quinta palavra da frase 'O rato roeu a roupa do Rei de Roma'?"
+Execução com Passo a Passo:
+Identificar as palavras: (1) O, (2) rato, (3) roeu, (4) a, (5) roupa, (6) do...
+Selecionar a quinta palavra: "roupa".
+Contar as letras de "roupa": 1:r, 2:o, 3:u.
+Resultado: A letra é "u".
+
+Qual é a terceira letra da quinta palavra da frase 'O rato roeu a roupa do Rei de Roma
+
+A quinta palavra é “roupa”.
+
+A terceira letra de “roupa” é “u”.
