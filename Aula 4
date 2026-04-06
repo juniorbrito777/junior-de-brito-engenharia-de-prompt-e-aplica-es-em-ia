@@ -1,0 +1,55 @@
+1. O Problema
+Contexto: Necessidade de gerar uma documentação técnica para uma função simples de cálculo de desconto em Python.
+
+  2. Iteração 1: Prompt Vago (Caminho da Falha)
+Prompt: "Faz um comentário pro meu código de desconto."
+
+Resposta da IA (Ruim):
+python
+# Esta função calcula o desconto.
+def calc_desc(v, d):
+    return v - (v * d)
+Use o código com cuidado.
+
+Diagnóstico: Resposta genérica, sem padrão técnico, sem explicação de parâmetros e com estilo informal demais (p. 6).
+
+3. Iteração 2: Prompt Mestre (Equação do Prompt)
+
+Prompt Estruturado:
+"Atue como um Desenvolvedor Backend Sênior. Estou organizando um repositório profissional e preciso documentar a função abaixo. Tarefa: Escreva um Docstring no padrão Google. Restrições: Use português formal, descreva tipos de dados (float) e não use gírias. Formato: Saída em bloco de código Markdown."
+
+Resposta da IA (Otimizada):
+python
+def calcular_desconto_progressivo(valor_total, percentual_desconto):
+    """
+    Calcula o valor final de uma compra aplicando um desconto percentual.
+
+    Args:
+        valor_total (float): O valor bruto da compra.
+        percentual_desconto (float): O valor do desconto (ex: 0.15 para 15%).
+
+    Returns:
+        float: O valor líquido após a subtração do desconto.
+    """
+    return valor_total * (1 - percentual_desconto)
+Use o código com cuidado.
+
+4. Refinamento Final (Formato YAML)
+
+Conforme solicitado no passo 4 da missão, segue a estruturação do prompt final em formato YAML para máxima eficiência de tokens (pp. 8, 14):
+yaml
+prompt_master:
+  persona: "Desenvolvedor Backend Sênior"
+  contexto: "Documentação de repositório profissional em Python"
+  tarefa: "Gerar Docstring padrão Google"
+  input_code: "def calc(v, d): return v - (v*d)"
+  restricoes:
+    - "Idioma: Português Brasil"
+    - "Tom: Técnico e formal"
+    - "Tipagem: Incluir sugestões de tipos"
+  formato_saida: "Markdown Code Block"
+Use o código com cuidado.
+
+5. Conclusão
+A aplicação da Equação do Prompt eliminou a ambiguidade da primeira tentativa (p. 6). Ao definir uma persona e restrições claras, o output deixou de ser apenas um comentário simples e se tornou uma documentação executável e padronizada para o mercado de trabalho (p. 13).
+
