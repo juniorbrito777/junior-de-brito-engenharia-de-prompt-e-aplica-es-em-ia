@@ -1,1 +1,16 @@
+Engenharia de Prompt: Fundamentos
+
+1.Comparação Prática de Prompts
+1.1 Prompt Genérico
+Pergunta: "O que é Machine Learning?"
+Resposta da IA: Machine Learning (Aprendizado de Máquina) é um subcampo da Inteligência Artificial que permite que sistemas aprendam com dados e melhorem seu desempenho em tarefas específicas sem serem explicitamente programados. Envolve algoritmos que identificam padrões em conjuntos de dados para fazer previsões ou tomar decisões.
+
+1.2 Prompt Estruturado
+Fórmula utilizada: Papel + Objetivo + Contexto + Formato
+Comando: "Atue como um professor paciente. Explique o conceito de Machine Learning para um estudante iniciante de graduação, utilizando uma analogia com esportes. Limite a resposta a 2 parágrafos."
+Resposta da IA: Olá! Imagine que o Machine Learning é como um atleta aprendendo a jogar tênis. No início, ele não sabe como rebater a bola, mas, ao observar milhares de jogadas e praticar repetidamente, seu cérebro começa a identificar padrões: a força necessária para cada movimento e o ângulo da raquete. O computador faz exatamente isso: em vez de seguir regras fixas, ele "treina" analisando grandes volumes de dados para aprender, por conta própria, como reagir a novas situações.
+Assim como o atleta melhora sua performance a cada treino, o sistema de Machine Learning refina seus próprios modelos matemáticos quanto mais informações recebe. Ele não precisa de um manual detalhado para cada jogada; ele apenas precisa de experiência (dados) para prever onde a bola vai cair e qual a melhor forma de rebatê-la com precisão.
+
+2. Análise Crítica
+A resposta gerada pelo prompt estruturado foi significativamente mais útil e didática. Ao definir o papel (professor) e o contexto (estudante iniciante com analogia esportiva), a IA eliminou jargões técnicos complexos e entregou uma explicação mais tangível (pp. 14, 20). A estrutura reduziu a ambiguidade ao forçar um formato específico (2 parágrafos), evitando que a IA desse uma resposta longa demais ou superficial, garantindo que o objetivo de aprendizagem fosse atingido com clareza absoluta (pp. 8, 15).
 
